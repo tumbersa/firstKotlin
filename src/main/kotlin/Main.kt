@@ -3,7 +3,7 @@ import coffeeMachine.*
 fun main() {
 
     println("Write action (buy, fill, take, remaining, exit): ")
-    val first = cofeeMachine()
+    val first = coffeeMachine()
     var ex =readln()
     while (ex!="exit") {
         when (ex) {
